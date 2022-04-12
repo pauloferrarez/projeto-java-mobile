@@ -1,4 +1,4 @@
-package br.com.unisagrado.infofarma;
+package br.com.unisagrado.infofarma.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,14 +11,15 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+import br.com.unisagrado.infofarma.R;
 import br.com.unisagrado.infofarma.model.Medicamento;
 
-public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
+public class MedicamentoAdapter extends RecyclerView.Adapter<MedicamentoAdapter.MyViewHolder> {
 
     Context context;
     List<Medicamento> medicamentos;
 
-    public  MyAdapter(Context context, List<Medicamento> medicamentos){
+    public MedicamentoAdapter(Context context, List<Medicamento> medicamentos){
         this.context = context;
         this.medicamentos = medicamentos;
     }

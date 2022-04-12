@@ -12,6 +12,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.com.unisagrado.infofarma.adapter.MedicamentoAdapter;
 import br.com.unisagrado.infofarma.model.Medicamento;
 import br.com.unisagrado.infofarma.service.MedicamentoService;
 
@@ -42,8 +43,8 @@ public class MainActivity extends AppCompatActivity {
 
         medicamentos = medicamentoService.findAll();
 
-        MyAdapter myAdapter = new MyAdapter(this, medicamentos);
-        recyclerView.setAdapter(myAdapter);
+        MedicamentoAdapter medicamentoAdapter = new MedicamentoAdapter(this, medicamentos);
+        recyclerView.setAdapter(medicamentoAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 
