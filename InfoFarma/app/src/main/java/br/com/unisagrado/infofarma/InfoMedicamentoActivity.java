@@ -9,7 +9,6 @@ import androidx.appcompat.app.AppCompatActivity;
 public class InfoMedicamentoActivity extends AppCompatActivity {
 
     private TextView txtNomeMedicamento, txtDescricaoCompleta;
-    private String nomeMed, descricaoMed;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

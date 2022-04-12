@@ -9,15 +9,9 @@
         <item>Omeprazol</item>
         <item>Omeprazol</item>
         <item>Omeprazol</item>
-        <item>Omeprazol</item>
-        <item>Omeprazol</item>
-        <item>Omeprazol</item>
     </string-array>
 
     <string-array name="descricao">
-        <item>Descrição do Medicamento</item>
-        <item>Descrição do Medicamento</item>
-        <item>Descrição do Medicamento</item>
         <item>Descrição do Medicamento</item>
         <item>Descrição do Medicamento</item>
         <item>Descrição do Medicamento</item>
@@ -30,15 +24,6 @@
     <string-array name="descricao_completa">
         <item>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula erat sed iaculis pharetra. Suspendisse iaculis et nisl et accumsan. Mauris volutpat ligula nec neque pharetra, non egestas metus vestibulum. Integer auctor, arcu et sagittis ultricies, ipsum lacus posuere nulla, id tempus nisl nisi vitae dolor. Maecenas nec nisl quam. Etiam ornare felis ac ligula finibus, et condimentum nisl gravida. Aliquam in augue erat. In accumsan, turpis non viverra viverra, lectus enim posuere lectus, sed feugiat odio magna nec lorem. Aliquam feugiat pharetra libero, ac vulputate neque interdum eu. Proin feugiat elementum enim dignissim lacinia. Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
-        </item>
-        <item>
-            Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
-        </item>
-        <item>
-            Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
-        </item>
-        <item>
-            Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
         </item>
         <item>
             Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
