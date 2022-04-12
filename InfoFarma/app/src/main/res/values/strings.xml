@@ -4,7 +4,6 @@
     <string-array name="medicamentos">
         <item>Paracetamol</item>
         <item>Dipirona</item>
-
         <item>Ibuprofeno</item>
         <item>Omeprazol</item>
         <item>Omeprazol</item>
@@ -13,13 +12,11 @@
         <item>Omeprazol</item>
         <item>Omeprazol</item>
         <item>Omeprazol</item>
-
     </string-array>
 
     <string-array name="descricao">
         <item>Descrição do Medicamento</item>
         <item>Descrição do Medicamento</item>
-
         <item>Descrição do Medicamento</item>
         <item>Descrição do Medicamento</item>
         <item>Descrição do Medicamento</item>
@@ -28,7 +25,6 @@
         <item>Descrição do Medicamento</item>
         <item>Descrição do Medicamento</item>
         <item>Descrição do Medicamento</item>
-
     </string-array>
 
     <string-array name="descricao_completa">
@@ -37,8 +33,31 @@
         </item>
         <item>
             Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
-
-Mauris pellentesque at arcu nec mattis. Praesent congue iaculis aliquam. Praesent consequat rhoncus fermentum. Vestibulum faucibus lorem quam, non venenatis turpis auctor in. Nunc vestibulum porttitor nulla ac ultricies. Mauris in turpis vehicula, eleifend nulla vitae, fringilla leo. Praesent sagittis, arcu in auctor maximus, erat dui maximus nibh, sed feugiat lorem elit nec mi. Cras fermentum elit neque, eu volutpat eros gravida vel. In sed sodales diam. Vivamus augue nunc, viverra at dolor at, malesuada posuere est. Maecenas quam metus, placerat sed consectetur vel, bibendum fringilla justo. Maecenas condimentum vitae libero vitae vulputate. Fusce viverra, quam sed maximus malesuada, tortor tellus finibus mi, ultricies condimentum lacus purus id nunc. Sed posuere dui a felis auctor, a sagittis odio lacinia.
         </item>
+        <item>
+            Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
+        </item>
+        <item>
+            Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
+        </item>
+        <item>
+            Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
+        </item>
+        <item>
+            Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
+        </item>
+        <item>
+            Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
+        </item>
+        <item>
+            Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
+        </item>
+        <item>
+            Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
+        </item>
+        <item>
+            Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
+        </item>
+
     </string-array>
 </resources>

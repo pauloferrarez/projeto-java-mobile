@@ -7,11 +7,15 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static final String EXTRA_NOME = "br.com.unisagrado.infofarma.EXTRA_NOME";
+    public static final String EXTRA_DESCRICAO_COMPLETA = "br.com.unisagrado.infofarma.EXTRA_DESCRICAO_COMPLETA";
     RecyclerView recyclerView;
-    String medicamentos[], descricaoMeds[];
+    TextView txtPosicao;
+    String medicamentos[], descricaoMeds[], descricaoCompletaMeds[];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
 
         medicamentos = getResources().getStringArray(R.array.medicamentos);
         descricaoMeds = getResources().getStringArray(R.array.descricao);
+        descricaoCompletaMeds = getResources().getStringArray(R.array.descricao_completa);
+
+
 
         MyAdapter myAdapter = new MyAdapter(this, medicamentos, descricaoMeds);
         recyclerView.setAdapter(myAdapter);
@@ -29,8 +36,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void abrirInfoMedicamento(View view){
-
-        Intent intent = new Intent(this, InfoMedicamento.class);
+        txtPosicao = view.findViewById(R.id.txtPosicao);
+        Intent intent = new Intent(this, InfoMedicamentoActivity.class);
+        intent.putExtra(EXTRA_NOME, medicamentos[Integer.parseInt(txtPosicao.getText().toString())]);
+        intent.putExtra(EXTRA_DESCRICAO_COMPLETA, descricaoCompletaMeds[Integer.parseInt(txtPosicao.getText().toString())]);
         startActivity(intent);
     }
 

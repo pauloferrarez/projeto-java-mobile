@@ -8,7 +8,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.InfoFarma">
+        android:theme="@style/Theme.Design.Light">
+        <!--android:theme="@style/Theme.InfoFarma">-->
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -19,7 +20,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".InfoMedicamento"
+            android:name=".InfoMedicamentoActivity"
+            android:parentActivityName=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
