@@ -9,16 +9,18 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.List;
+
+import br.com.unisagrado.infofarma.model.Medicamento;
+
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     Context context;
-    String dataTitle[], dataDescription[];
+    List<Medicamento> medicamentos;
 
-
-    public  MyAdapter(Context context, String txtTitle[], String txtDescription[]){
+    public  MyAdapter(Context context, List<Medicamento> medicamentos){
         this.context = context;
-        dataTitle = txtTitle;
-        dataDescription = txtDescription;
+        this.medicamentos = medicamentos;
     }
 
     @NonNull
@@ -31,14 +33,14 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        holder.txtMedicamento.setText(dataTitle[position]);
-        holder.txtDescricao.setText(dataDescription[position]);
+        holder.txtMedicamento.setText(medicamentos.get(position).getNome());
+        holder.txtDescricao.setText(medicamentos.get(position).getDescricao());
         holder.txtPosicao.setText(String.valueOf(position));
     }
 
     @Override
     public int getItemCount() {
-        return dataTitle.length;
+        return medicamentos.size();
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {

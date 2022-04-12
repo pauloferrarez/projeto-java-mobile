@@ -53,7 +53,7 @@
                 android:layout_marginStart="36dp"
                 android:text="posição"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="#00575757"
+                android:textColor="#00494949"
                 app:layout_constraintBottom_toTopOf="@+id/txtDescricao"
                 app:layout_constraintStart_toEndOf="@+id/txtDescricao" />
         </androidx.constraintlayout.widget.ConstraintLayout>
