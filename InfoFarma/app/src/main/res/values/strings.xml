@@ -1,48 +1,10 @@
 <resources>
     <string name="app_name">Info Farma</string>
 
-    <string-array name="medicamentos">
-        <item>Paracetamol</item>
-        <item>Dipirona</item>
-        <item>Ibuprofeno</item>
-        <item>Omeprazol</item>
-        <item>Omeprazol</item>
-        <item>Omeprazol</item>
-        <item>Omeprazol</item>
-    </string-array>
-
-    <string-array name="descricao">
-        <item>Descrição do Medicamento</item>
-        <item>Descrição do Medicamento</item>
-        <item>Descrição do Medicamento</item>
-        <item>Descrição do Medicamento</item>
-        <item>Descrição do Medicamento</item>
-        <item>Descrição do Medicamento</item>
-        <item>Descrição do Medicamento</item>
-    </string-array>
-
-    <string-array name="descricao_completa">
-        <item>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula erat sed iaculis pharetra. Suspendisse iaculis et nisl et accumsan. Mauris volutpat ligula nec neque pharetra, non egestas metus vestibulum. Integer auctor, arcu et sagittis ultricies, ipsum lacus posuere nulla, id tempus nisl nisi vitae dolor. Maecenas nec nisl quam. Etiam ornare felis ac ligula finibus, et condimentum nisl gravida. Aliquam in augue erat. In accumsan, turpis non viverra viverra, lectus enim posuere lectus, sed feugiat odio magna nec lorem. Aliquam feugiat pharetra libero, ac vulputate neque interdum eu. Proin feugiat elementum enim dignissim lacinia. Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
-        </item>
-        <item>
-            Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
-        </item>
-        <item>
-            Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
-        </item>
-        <item>
-            Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
-        </item>
-        <item>
-            Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
-        </item>
-        <item>
-            Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
-        </item>
-        <item>
-            Quisque aliquam urna dolor, eu congue eros fringilla vitae. Vestibulum maximus justo id porttitor rutrum. Maecenas quis purus mi. Morbi vitae felis elit.
-        </item>
-
-    </string-array>
+    <string name="creditos">
+        Andrew Jose Massuli\n
+        Danilo Baio Bellanda\n
+        Luiz Vitor Pirierino\n
+        Paulo Cesar Ferrarez Filho\n
+    </string>
 </resources>

@@ -20,8 +20,8 @@ public class InfoMedicamentoActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
 
-        txtNomeMedicamento.setText(intent.getStringExtra(MainActivity.EXTRA_NOME));
-        txtDescricaoCompleta.setText(intent.getStringExtra(MainActivity.EXTRA_DESCRICAO_COMPLETA));
+        txtNomeMedicamento.setText(intent.getStringExtra(MedicamentosActivity.EXTRA_NOME));
+        txtDescricaoCompleta.setText(intent.getStringExtra(MedicamentosActivity.EXTRA_DESCRICAO_COMPLETA));
 
     }
 }
