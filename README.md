@@ -3,7 +3,7 @@
 # creditos
 > Projeto Mobile feito em Java pelos alunos da UNISAGRADO
 >
->-Andrew Jose Massuli
+>-Andrew Jose Massolini
 >
 >-Danilo Baio Bellanda
 >

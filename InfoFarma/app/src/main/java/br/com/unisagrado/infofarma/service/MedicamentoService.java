@@ -44,16 +44,8 @@ public class MedicamentoService {
                         "Phasellus id augue tempor, dignissim felis vitae, accumsan nulla."));
         medicamentos.add(new Medicamento(
                 medicamentos.size(),
-                "Omeprazol",
-                "Sei lá",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n" +
-                        "Vestibulum et ante vitae turpis auctor placerat a vitae libero. Etiam sit amet diam ut nisi dictum commodo. Donec efficitur pretium tellus, sit amet efficitur ante.\n" +
-                        "Maecenas ac tortor id purus bibendum sodales non sit amet nulla. Sed nec arcu ultrices, pulvinar elit vitae, iaculis erat.\n" +
-                        "Phasellus id augue tempor, dignissim felis vitae, accumsan nulla."));
-        medicamentos.add(new Medicamento(
-                medicamentos.size(),
-                "Viagra",
-                "Vasodilatador",
+                "Buscopan",
+                "Descrição",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n" +
                         "Vestibulum et ante vitae turpis auctor placerat a vitae libero. Etiam sit amet diam ut nisi dictum commodo. Donec efficitur pretium tellus, sit amet efficitur ante.\n" +
                         "Maecenas ac tortor id purus bibendum sodales non sit amet nulla. Sed nec arcu ultrices, pulvinar elit vitae, iaculis erat.\n" +
@@ -68,8 +60,8 @@ public class MedicamentoService {
                         "Phasellus id augue tempor, dignissim felis vitae, accumsan nulla."));
         medicamentos.add(new Medicamento(
                 medicamentos.size(),
-                "Paçoca de Bar",
-                "uma delícia",
+                "Canabidiol",
+                "Descrição",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n" +
                         "Vestibulum et ante vitae turpis auctor placerat a vitae libero. Etiam sit amet diam ut nisi dictum commodo. Donec efficitur pretium tellus, sit amet efficitur ante.\n" +
                         "Maecenas ac tortor id purus bibendum sodales non sit amet nulla. Sed nec arcu ultrices, pulvinar elit vitae, iaculis erat.\n" +

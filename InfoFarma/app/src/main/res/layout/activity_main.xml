@@ -18,7 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/abuble" />
+        app:srcCompat="@drawable/farmacia" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView2"
