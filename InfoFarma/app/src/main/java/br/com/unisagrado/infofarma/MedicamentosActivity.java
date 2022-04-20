@@ -5,7 +5,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -30,7 +32,7 @@ public class MedicamentosActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.medicamentos);
+        setContentView(R.layout.activity_medicamentos);
 
         medicamentos = medicamentoService.findAll();
 
@@ -42,7 +44,7 @@ public class MedicamentosActivity extends AppCompatActivity {
     }
 
     // abre a página de detalhes do medicamento passando nome e descrição
-    public void abrirInfoMedicamento(View view){
+    public void abrirInfoMedicamento(@NonNull View view){
         txtPosicao = view.findViewById(R.id.txtPosicao);
         int posicao = Integer.parseInt(txtPosicao.getText().toString());
 

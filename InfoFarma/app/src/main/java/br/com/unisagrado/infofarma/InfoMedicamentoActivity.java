@@ -13,7 +13,7 @@ public class InfoMedicamentoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.info_medicamento);
+        setContentView(R.layout.activity_info_medicamento);
 
         txtNomeMedicamento = findViewById(R.id.txtNomeMedicamento);
         txtDescricaoCompleta = findViewById(R.id.txtDescricaoCompleta);

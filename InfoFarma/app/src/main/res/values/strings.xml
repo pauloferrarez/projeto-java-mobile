@@ -9,4 +9,9 @@
         Dedicado a:\n
         Centro Socioeducativo Irmã Adelaide
     </string>
+
+    <string name="recado_splash">
+        Caso persistirem os sintomas,\n
+        procure um médico
+    </string>
 </resources>
