@@ -3,10 +3,10 @@ package br.com.unisagrado.infofarma.model;
 import java.io.Serializable;
 
 public class Medicamento implements Serializable {
-    private int id;
-    private String nome;
-    private String descricao;
-    private String descricaoCompleta;
+    private final int id;
+    private final String nome;
+    private final String descricao;
+    private final String descricaoCompleta;
 
     public Medicamento(int id, String nome, String descricao, String descricaoCompleta) {
         this.id = id;

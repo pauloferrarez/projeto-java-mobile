@@ -16,8 +16,8 @@ import br.com.unisagrado.infofarma.model.Medicamento;
 
 public class MedicamentoAdapter extends RecyclerView.Adapter<MedicamentoAdapter.MyViewHolder> {
 
-    Context context;
-    List<Medicamento> medicamentos;
+    private final Context context;
+    private final List<Medicamento> medicamentos;
 
     public MedicamentoAdapter(Context context, List<Medicamento> medicamentos){
         this.context = context;
@@ -44,7 +44,7 @@ public class MedicamentoAdapter extends RecyclerView.Adapter<MedicamentoAdapter.
         return medicamentos.size();
     }
 
-    public class MyViewHolder extends RecyclerView.ViewHolder {
+    public static class MyViewHolder extends RecyclerView.ViewHolder {
 
         TextView txtMedicamento, txtDescricao, txtPosicao;
 
