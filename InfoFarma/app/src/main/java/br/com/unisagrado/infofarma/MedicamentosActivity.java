@@ -19,8 +19,7 @@ import br.com.unisagrado.infofarma.service.MedicamentoService;
 
 public class MedicamentosActivity extends AppCompatActivity {
 
-    public static final String EXTRA_NOME = "br.com.unisagrado.infofarma.EXTRA_NOME";
-    public static final String EXTRA_DESCRICAO_COMPLETA = "br.com.unisagrado.infofarma.EXTRA_DESCRICAO_COMPLETA";
+    public static final String EXTRA_MED = "br.com.unisagrado.infofarma.EXTRA_MED";
 
     RecyclerView recViewMeds;
     TextView txtPosicao;
@@ -31,26 +30,25 @@ public class MedicamentosActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_medicamentos);
+        setContentView(R.layout.activity_list);
 
-        medicamentos = medicamentoService.findAll();
+        medicamentos = medicamentoService.findMedicamentos();
 
         MedicamentoAdapter medicamentoAdapter = new MedicamentoAdapter(this, medicamentos);
 
-        recViewMeds = findViewById(R.id.medRecyclerView);
+        recViewMeds = findViewById(R.id.RecyclerView);
         recViewMeds.setAdapter(medicamentoAdapter);
         recViewMeds.setLayoutManager(new LinearLayoutManager(this));
     }
 
     // abre a página de detalhes do medicamento passando nome e descrição
-    public void abrirInfoMedicamento(@NonNull View view){
+    public void abrirInfo(@NonNull View view){
         txtPosicao = view.findViewById(R.id.txtPosicao);
         int posicao = Integer.parseInt(txtPosicao.getText().toString());
 
         Intent intent = new Intent(this, InfoMedicamentoActivity.class);
 
-        intent.putExtra(EXTRA_NOME, medicamentos.get(posicao).getNome());
-        intent.putExtra(EXTRA_DESCRICAO_COMPLETA, medicamentos.get(posicao).getDescricaoCompleta());
+        intent.putExtra(EXTRA_MED, medicamentos.get(posicao));
         startActivity(intent);
     }
 }

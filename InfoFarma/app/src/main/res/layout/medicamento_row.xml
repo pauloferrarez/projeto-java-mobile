@@ -12,7 +12,7 @@
         android:layout_marginTop="2dp"
         android:clickable="true"
         android:focusable="true"
-        android:onClick="abrirInfoMedicamento"
+        android:onClick="abrirInfo"
         app:cardElevation="2dp"
         app:cardUseCompatPadding="false"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,7 +28,7 @@
                 android:id="@+id/txtMedicamento"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="36dp"
+                android:layout_marginStart="25dp"
                 android:layout_marginTop="20dp"
                 android:text="Medicamento"
                 android:textSize="24sp"
@@ -38,13 +38,15 @@
 
             <TextView
                 android:id="@+id/txtDescricao"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
                 android:layout_marginBottom="20dp"
                 android:text="Descrição do Medicamento"
-                android:textSize="16sp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/txtMedicamento"
                 app:layout_constraintTop_toBottomOf="@+id/txtMedicamento" />
 
@@ -52,7 +54,6 @@
                 android:id="@+id/txtPosicao"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_marginStart="36dp"
                 android:text="posição"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="#00494949"

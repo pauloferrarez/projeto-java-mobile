@@ -10,19 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InfoFarma">
         <activity
+            android:name=".InteracoesActivity"
+            android:exported="false"
+            android:label="Interações"
+            android:parentActivityName=".MainActivity"/>
+        <activity
             android:name=".SplashScreenActivity"
             android:exported="true"
-            android:theme="@style/Theme.InfoFarma.NoActionBar"
-            android:noHistory="true">
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.InfoFarma.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false"/>
         <activity
             android:name=".MedicamentosActivity"
             android:exported="false"
@@ -31,8 +37,7 @@
         <activity
             android:name=".InfoMedicamentoActivity"
             android:exported="false"
-            android:label="Descrição Completa"
-            android:parentActivityName=".MedicamentosActivity"/>
+            android:label="Descrição Completa"/>
     </application>
 
 </manifest>
