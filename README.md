@@ -11,14 +11,12 @@
 >-Luiz Vitor Pierino
 >
 >-Paulo Cesar Ferrarez Filho
->
->
->Alunos da disciplina:
->
+
+# disciplina
+
 >Linguagem de Programacao 1
 >
 >UNISAGRADO - Ciencia da Computacao
->
 >
 >Orientacao:
 >
