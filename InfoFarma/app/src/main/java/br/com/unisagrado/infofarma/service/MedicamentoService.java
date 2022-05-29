@@ -49,7 +49,7 @@ public class MedicamentoService {
                         "Pimozida, Tioridazina, Trifluoperazina",
                 "\t\tOs antipsicóticos devem ser evitados para tratar os problemas" +
                         "comportamentais da demência, pois estão associados a um" +
-                        "risco aumentado de AVC e de mortalidade em pacientes com demência"));
+                        "risco aumentado de AVC e de mortalidade em pacientes com demência."));
         medicamentos.add(new Medicamento(
                 medicamentos.size(),
                 "Benzodiazepínicos",
@@ -64,7 +64,7 @@ public class MedicamentoService {
                 "Zolpidem",
                 "\t\tEfeitos adversos similares aos benzodiazepínicos " +
                         "(por exemplo: delirium, quedas, fraturas). " +
-                        "\n\t\tPequena melhora na latência e duração do sono"));
+                        "\n\t\tPequena melhora na latência e duração do sono."));
         medicamentos.add(new Medicamento(
                 medicamentos.size(),
                 "Relaxantes musculares",
@@ -98,43 +98,4 @@ public class MedicamentoService {
         return medicamentos;
     }
 
-    public List<Medicamento> findInteracoes(){
-        List<Medicamento> interacoes = new ArrayList<>();
-
-        interacoes.add(new Medicamento(
-                interacoes.size(),
-                "Anti-histamínicos de primeira geração",
-                "clorfeniramina, dexclorfeniramina, dimenidrato, hidroxizina, prometazina",
-                "Efeito anticolinérgico pronunciado. \n" +
-                        "Possui eliminação reduzida entre idosos.\n" +
-                        "Risco de confusão, boca seca, constipação e outros efeitos anticolinérgicos. \n" +
-                        "\nAlternativas: \n\n" +
-                        " - Soro fisiológico nasal.\n" +
-                        " - Anti-histamínico de segunda geração (ex.: loratadina).\n" +
-                        " - Corticoesteroide intranasal (ex.: budesonida)."));
-        interacoes.add(new Medicamento(
-                interacoes.size(),
-                "Anti-histamínicos de primeira geração",
-                "clorfeniramina, dexclorfeniramina, dimenidrato, hidroxizina, prometazina",
-                "Efeito anticolinérgico pronunciado. \n" +
-                        "Possui eliminação reduzida entre idosos.\n" +
-                        "Risco de confusão, boca seca, constipação e outros efeitos anticolinérgicos. \n" +
-                        "\nAlternativas: \n\n" +
-                        " - Soro fisiológico nasal.\n" +
-                        " - Anti-histamínico de segunda geração (ex.: loratadina).\n" +
-                        " - Corticoesteroide intranasal (ex.: budesonida)."));
-        interacoes.add(new Medicamento(
-                interacoes.size(),
-                "Anti-histamínicos de primeira geração",
-                "clorfeniramina, dexclorfeniramina, dimenidrato, hidroxizina, prometazina",
-                "Efeito anticolinérgico pronunciado. \n" +
-                        "Possui eliminação reduzida entre idosos.\n" +
-                        "Risco de confusão, boca seca, constipação e outros efeitos anticolinérgicos. \n" +
-                        "\nAlternativas: \n\n" +
-                        " - Soro fisiológico nasal.\n" +
-                        " - Anti-histamínico de segunda geração (ex.: loratadina).\n" +
-                        " - Corticoesteroide intranasal (ex.: budesonida)."));
-
-        return interacoes;
-    }
 }

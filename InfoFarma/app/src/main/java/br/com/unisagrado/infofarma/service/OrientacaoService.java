@@ -16,7 +16,7 @@ public class OrientacaoService {
                         "ao medicamento que está tomando. " +
                         "\n\t\tSe o médico indicou aquela dose é porque ele sabe que aquilo é necessário. " +
                         "\n\t\tEntão cuide para que o seu familiar ou amigo tome as doses corretas do remédio" +
-                        " e não pare o tratamento antes do tempo recomendado"));
+                        " e não pare o tratamento antes do tempo recomendado."));
         orientacoes.add(new Orientacao(
                 "Mantenha a lista dos medicamentos visível",
                 "\t\tPara ajudar a pessoa a se lembrar de tomar seus medicamentos direitinho, " +

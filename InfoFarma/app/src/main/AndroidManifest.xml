@@ -15,11 +15,6 @@
             android:label="Orientações Gerais"
             android:parentActivityName=".MainActivity"/>
         <activity
-            android:name=".InteracoesActivity"
-            android:exported="false"
-            android:label="Interações"
-            android:parentActivityName=".MainActivity" />
-        <activity
             android:name=".SplashScreenActivity"
             android:exported="true"
             android:noHistory="true"
