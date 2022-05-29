@@ -10,10 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InfoFarma">
         <activity
+            android:name=".OrientacoesActivity"
+            android:exported="false"
+            android:label="Orientações Gerais"
+            android:parentActivityName=".MainActivity"/>
+        <activity
             android:name=".InteracoesActivity"
             android:exported="false"
             android:label="Interações"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".SplashScreenActivity"
             android:exported="true"
@@ -28,16 +33,18 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false"/>
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".MedicamentosActivity"
             android:exported="false"
-            android:label="Medicamentos"
+            android:label="Medicamentos de Risco"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".InfoMedicamentoActivity"
             android:exported="false"
-            android:label="Descrição Completa"/>
+            android:label="Descrição Completa"
+            android:parentActivityName=".MedicamentosActivity"/>
     </application>
 
 </manifest>

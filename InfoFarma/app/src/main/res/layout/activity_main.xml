@@ -10,9 +10,9 @@
         android:id="@+id/imageView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="80dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="85dp"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,11 +21,11 @@
         app:srcCompat="@drawable/farmacia" />
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardListaMeds"
+        android:id="@+id/cardOrientacoes"
         android:layout_width="0dp"
-        android:layout_height="75dp"
+        android:layout_height="70dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="50dp"
         app:cardElevation="10dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,10 +37,12 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
+                android:id="@+id/txtOrientacoes"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Medicamentos não Indicados aos Idosos"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Orientações Gerais"
                 android:textAlignment="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -49,30 +51,31 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
-
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardInteracoes"
+        android:id="@+id/cardListaMeds"
         android:layout_width="0dp"
-        android:layout_height="75dp"
+        android:layout_height="70dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="50dp"
         app:cardElevation="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardListaMeds">
+        app:layout_constraintTop_toBottomOf="@+id/cardOrientacoes">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/txtInteracoes"
-                android:layout_width="wrap_content"
+                android:id="@+id/txtMeds"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Interações entre Medicamentos"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Medicamentos de Risco para Idosos"
                 android:textAlignment="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -94,7 +97,7 @@
         app:cardElevation="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardInteracoes">
+        app:layout_constraintTop_toBottomOf="@+id/cardListaMeds">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

@@ -12,7 +12,7 @@ import br.com.unisagrado.infofarma.dialog.CreditosDialog;
 
 public class MainActivity extends AppCompatActivity {
 
-    CardView cardListaMeds, cardCreditos, cardInteracoes;
+    CardView cardListaMeds, cardCreditos, cardOrientacoes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,15 +21,15 @@ public class MainActivity extends AppCompatActivity {
 
         cardListaMeds = findViewById(R.id.cardListaMeds);
         cardCreditos = findViewById(R.id.cardCreditos);
-        cardInteracoes = findViewById(R.id.cardInteracoes);
+        cardOrientacoes = findViewById(R.id.cardOrientacoes);
 
         cardListaMeds.setOnClickListener(this::abrirListaMedicamentos);
         cardCreditos.setOnClickListener(this::mostrarCreditos);
-        cardInteracoes.setOnClickListener(this::abrirListaInteracoes);
+        cardOrientacoes.setOnClickListener(this::abrirOrientacoes);
     }
 
-    private void abrirListaInteracoes(View view) {
-        Intent intent = new Intent(this, InteracoesActivity.class);
+    private void abrirOrientacoes(View view) {
+        Intent intent = new Intent(this, OrientacoesActivity.class);
         startActivity(intent);
     }
 

@@ -8,7 +8,7 @@
 >
 >-Danilo Baio Bellanda
 >
->-Luiz Vitor Pierino
+>-Luiz Vitor Pierino da Silva
 >
 >-Paulo Cesar Ferrarez Filho
 
