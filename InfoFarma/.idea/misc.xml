@@ -17,7 +17,7 @@
         <entry key="..\:/Users/paulo.filho/Desktop/my stuff/projetinhos/projeto-java-mobile/InfoFarma/app/src/main/res/layout/activity_splash_screen.xml" value="0.23505434782608695" />
         <entry key="..\:/Users/paulo.filho/Desktop/my stuff/projetinhos/projeto-java-mobile/InfoFarma/app/src/main/res/layout/creditos_dialog.xml" value="0.4" />
         <entry key="..\:/Users/paulo.filho/Desktop/my stuff/projetinhos/projeto-java-mobile/InfoFarma/app/src/main/res/layout/info_medicamento.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/paulo.filho/Desktop/my stuff/projetinhos/projeto-java-mobile/InfoFarma/app/src/main/res/layout/medicamento_row.xml" value="0.23505434782608695" />
+        <entry key="..\:/Users/paulo.filho/Desktop/my stuff/projetinhos/projeto-java-mobile/InfoFarma/app/src/main/res/layout/medicamento_row.xml" value="0.536" />
         <entry key="..\:/Users/paulo.filho/Desktop/my stuff/projetinhos/projeto-java-mobile/InfoFarma/app/src/main/res/layout/medicamentos.xml" value="0.264" />
         <entry key="..\:/Users/paulo.filho/Desktop/my stuff/projetinhos/projeto-java-mobile/InfoFarma/app/src/main/res/layout/my_row.xml" value="0.264" />
         <entry key="..\:/Users/paulo.filho/Desktop/my stuff/projetinhos/projeto-java-mobile/InfoFarma/app/src/main/res/layout/orientacao_row.xml" value="0.536" />
@@ -25,6 +25,13 @@
         <entry key="..\:/Users/paulo.filho/Desktop/my stuff/projetinhos/projeto-java-mobile/InfoFarma/app/src/main/res/layout/splash_screen.xml" value="0.23505434782608695" />
         <entry key="..\:/Users/paulo.filho/Desktop/my stuff/projetinhos/projeto-java-mobile/InfoFarma/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.224" />
         <entry key="..\:/Users/paulo.filho/Desktop/my stuff/projetinhos/projeto-java-mobile/InfoFarma/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.224" />
+        <entry key="..\:/Users/paulo.filho/Desktop/my_stuff/projetinhos/projeto-java-mobile/InfoFarma/app/src/main/res/layout/activity_info_medicamento.xml" value="0.2164855072463768" />
+        <entry key="..\:/Users/paulo.filho/Desktop/my_stuff/projetinhos/projeto-java-mobile/InfoFarma/app/src/main/res/layout/activity_list.xml" value="0.2164855072463768" />
+        <entry key="..\:/Users/paulo.filho/Desktop/my_stuff/projetinhos/projeto-java-mobile/InfoFarma/app/src/main/res/layout/activity_main.xml" value="0.2164855072463768" />
+        <entry key="..\:/Users/paulo.filho/Desktop/my_stuff/projetinhos/projeto-java-mobile/InfoFarma/app/src/main/res/layout/activity_splash_screen.xml" value="0.2164855072463768" />
+        <entry key="..\:/Users/paulo.filho/Desktop/my_stuff/projetinhos/projeto-java-mobile/InfoFarma/app/src/main/res/layout/creditos_dialog.xml" value="0.2164855072463768" />
+        <entry key="..\:/Users/paulo.filho/Desktop/my_stuff/projetinhos/projeto-java-mobile/InfoFarma/app/src/main/res/layout/medicamento_row.xml" value="0.2164855072463768" />
+        <entry key="..\:/Users/paulo.filho/Desktop/my_stuff/projetinhos/projeto-java-mobile/InfoFarma/app/src/main/res/layout/orientacao_row.xml" value="0.2164855072463768" />
       </map>
     </option>
   </component>
